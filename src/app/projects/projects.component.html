@@ -1,0 +1,25 @@
+<h3>Projects</h3>
+<ul *ngFor="let project of projects">
+  <li>
+    <tr>
+      <td>{{ project.fecha }}</td>
+      <td>{{ project.unicacion }}</td>
+    </tr>
+    <tr>
+      <td>{{ project.tipo }}</td>
+    </tr>
+    <tr>
+      <td>{{ project.proyecto }}</td>
+    </tr>
+    <h4>Description:</h4>
+    <ul *ngFor="let logro of project.logros">
+      <li>
+        <tr>
+          {{
+            logro.descripcion
+          }}
+        </tr>
+      </li>
+    </ul>
+  </li>
+</ul>

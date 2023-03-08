@@ -1,0 +1,44 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  padding: 1rem;
+  vertical-align: top;
+}
+
+td:first-child p:first-child {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+td:first-child p:last-child {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+td:nth-child(2) {
+  text-align: center;
+}
+
+td:nth-child(2) img {
+  border-radius: 50%;
+}
+
+td:last-child {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-top: 0.5rem;
+}
